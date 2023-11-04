@@ -1,3 +1,4 @@
+@smoke
 Feature: google_search_feature
 
   Background:
@@ -7,6 +8,7 @@ Feature: google_search_feature
   Scenario: TC01_iPhone_search
   And search for iPhone
   Then verify the result contains iPhone
+    And close the application
 
 
 
@@ -14,6 +16,7 @@ Feature: google_search_feature
     Scenario: TC02_tea_pot_search
     And search for tea pot
     Then verify the result contains tea pot
+      And close the application
 
 
 

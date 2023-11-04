@@ -9,7 +9,7 @@ public class GoogleHomePage {
     public GoogleHomePage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
-    @FindBy(name = "q")
+    @FindBy(id = "APjFqb")
     public WebElement searchBox;
     //for pop up cookies problems
     @FindBy(xpath = "(//div[@class='QS5gu sy4vM'])[2]")
